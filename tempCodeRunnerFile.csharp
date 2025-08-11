@@ -1,0 +1,7 @@
+int c = console.readKey();
+int d = console.readKey();
+if (c == d) {
+    console.write("Keys are the same: " + c);
+} else {
+    console.write("Keys are different: " + c + " and " + d);
+}

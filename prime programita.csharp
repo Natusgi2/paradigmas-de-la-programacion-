@@ -1,0 +1,19 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+static void Main(string[] args)
+{
+    Console console = new Console();
+    console.write("Press any key to continue...");
+    console.readKey();
+    int c = console.readKey();
+    int d = console.readKey();
+    if (c == d)
+    {
+        console.write("Keys are the same: " + c);
+    }
+    else
+    {
+        console.write("Keys are different: " + c + " and " + d);
+    }
+}

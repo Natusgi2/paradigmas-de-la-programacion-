@@ -1,0 +1,5 @@
+type Ejercicio = {
+    texto: string;
+};
+
+console.log("hola mundo");
